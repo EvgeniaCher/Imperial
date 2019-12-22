@@ -1,0 +1,247 @@
+body {
+	font-family: 'Days One', sans-serif;
+	background-color: #fff;
+	max-width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: hidden;
+}
+
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+header {
+	background: no-repeat url(../img/background1.jpg) fixed center top / cover;
+}
+
+.title1 {
+	position: fixed;
+	background: #00ffff;
+	border-bottom: 1px solid #99ffff;
+	right: 0px;
+	left: 0px;
+	box-shadow: 0 0 15px #00ffff;
+	z-index: 1;
+}
+
+
+.logo {
+	font-size: 30px;
+	color: #00ffff;
+	margin-left: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.menu {
+	margin-top: 15px;
+	font-weight: bold;
+}
+
+.menu__item {
+	margin: 0 18px;
+}
+
+.menu__item a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #336666;
+}
+
+.menu__item a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.title2 {
+	text-align: center;
+	color: #fff;
+	margin-top: 200px;
+	display: block;
+	z-index: 2;
+}
+
+.title2__main {
+	font-family: 'Cormorant SC', serif;
+	font-size: 90px;
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
+
+.title2__text {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 40px;
+	margin-bottom: 100px;
+	color: #ffff99;
+}
+
+/*Главная*/
+
+
+/*анимация смены двух картинок*/
+#img_container {
+	position:relative;
+	margin:0 auto;
+	left: 30px;
+	top: 30px;
+}
+
+#img_container img {
+	position:absolute;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+@-webkit-keyframes cf3FadeInOut {
+	0% {
+	opacity:1;
+	}
+	45% {
+	opacity:1;
+	}
+	55% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+ 
+@-moz-keyframes cf3FadeInOut {
+	0% {
+	opacity:1;
+	}
+	45% {
+	opacity:1;
+	}
+	55% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+ 
+@-o-keyframes cf3FadeInOut {
+	0% {
+	opacity:1;
+	}
+	45% {
+	opacity:1;
+	}
+	55% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+ 
+@keyframes cf3FadeInOut {
+	0% {
+	opacity:1;
+	}
+	45% {
+	opacity:1;
+	}
+	55% {
+	opacity:0;
+	}
+	100% {
+	opacity:0;
+	}
+}
+ 
+#img_container img.top {
+	-webkit-animation-name: cf3FadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-direction: alternate;
+	 
+	-moz-animation-name: cf3FadeInOut;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 4s;
+	-moz-animation-direction: alternate;
+	 
+	-o-animation-name: cf3FadeInOut;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 4s;
+	-o-animation-direction: alternate;
+	
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-direction: alternate;
+}
+/*конец анимации 2-х картинок*/
+
+
+.welcome {
+	height: 450px;
+	line-height: 450px;
+	padding: 30px;
+	background-color: #efefef;
+	margin: 30px;
+}
+
+.welcome__text {
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+	
+	
+h3 {
+	font-size: 35px;
+	color: #6BC9E3;
+}
+
+p {
+	font-size: 20px;
+	color: #585E60;
+}
+
+
+/*преимущества*/
+
+.container2 {
+	background-color: #160905;
+	text-align: center;
+	padding: 20px;
+}
+
+h4 {
+	font-size: 20px;
+	color: #ffff99;
+}
+
+.icon {
+	margin-bottom: 15px;
+}
+
+.container2 p {
+	font-size: 15px;
+	color: #d8d8d8;
+}
+
+/*Дизайн интерьера*/
+
+.description {
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.style {
+	
