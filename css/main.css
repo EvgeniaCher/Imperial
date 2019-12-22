@@ -113,7 +113,7 @@ header {
 	opacity:0;
 	}
 }
- 
+
 @-moz-keyframes cf3FadeInOut {
 	0% {
 	opacity:1;
@@ -128,7 +128,7 @@ header {
 	opacity:0;
 	}
 }
- 
+
 @-o-keyframes cf3FadeInOut {
 	0% {
 	opacity:1;
@@ -143,7 +143,7 @@ header {
 	opacity:0;
 	}
 }
- 
+
 @keyframes cf3FadeInOut {
 	0% {
 	opacity:1;
@@ -158,26 +158,26 @@ header {
 	opacity:0;
 	}
 }
- 
+
 #img_container img.top {
 	-webkit-animation-name: cf3FadeInOut;
 	-webkit-animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-duration: 4s;
 	-webkit-animation-direction: alternate;
-	 
+
 	-moz-animation-name: cf3FadeInOut;
 	-moz-animation-timing-function: ease-in-out;
 	-moz-animation-iteration-count: infinite;
 	-moz-animation-duration: 4s;
 	-moz-animation-direction: alternate;
-	 
+
 	-o-animation-name: cf3FadeInOut;
 	-o-animation-timing-function: ease-in-out;
 	-o-animation-iteration-count: infinite;
 	-o-animation-duration: 4s;
 	-o-animation-direction: alternate;
-	
+
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-duration: 4s;
@@ -198,25 +198,24 @@ header {
 	line-height: normal;
 	display: inline-block;
 	vertical-align: middle;
-	text-align: center;
 }
-	
-	
+
+
 h3 {
-	font-size: 35px;
+	font-size: 50px;
 	color: #6BC9E3;
 }
 
 p {
 	font-size: 20px;
-	color: #585E60;
+	color: #757575;
 }
 
 
 /*преимущества*/
 
 .container2 {
-	background-color: #160905;
+	background-color: #361607;
 	text-align: center;
 	padding: 20px;
 }
@@ -228,6 +227,9 @@ h4 {
 
 .icon {
 	margin-bottom: 15px;
+	padding: 5px;
+	border-radius: 10%;
+	box-shadow: 0 0 7px #ffff99;
 }
 
 .container2 p {
@@ -235,13 +237,97 @@ h4 {
 	color: #d8d8d8;
 }
 
-/*Дизайн интерьера*/
+/*Стили интерьера*/
 
-.description {
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-right: 50px;
+.cards__back p {
+	font-size: 15px;
+	color: #757575;
+	margin: 20px;
 }
 
-.style {
-	
+.cards__front h3 {
+	font-size: 60px;
+	color: #ffff99;
+	background: rgba(180, 180, 180, 0.6);
+}
+
+.color {
+	background-color: #FFF1E1;
+}
+
+.description {
+	padding: 30px;
+}
+
+.rotation {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 30px;
+
+}
+
+.cards {
+	width: 410px;
+	height: 360px;
+	position: relative;
+	perspective: 1000px;
+}
+.cards__front, .cards__back {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1s;
+	backface-visibility: hidden;
+	border-radius: 10px;
+}
+
+.cards__back {
+
+	background: rgba(120, 120, 130, 0.2);
+	transform: rotateY(180deg);
+}
+
+.cards:hover .cards__front {transform: rotateY(180deg);}
+.cards:hover .cards__back {transform: rotateY(360deg);}
+
+.cards__img1 {
+	background: url(../img/photo8.jpg) no-repeat center;
+}
+
+.cards__img2 {
+	background: url(../img/photo12.jpg) no-repeat center;
+}
+
+.cards__img3 {
+	background: url(../img/photo25.jpg) no-repeat center;
+}
+
+.cards__img4 {
+	background: url(../img/photo29.jpg) no-repeat center;
+}
+
+.subtext {
+	background-color: #fff;
+	padding: 70px;
+}
+
+/*специалисты*/
+
+.person {
+	margin: 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 7px #ffff99;
+}
+
+.specialists h4 {
+	color: #6BC9E3;
+	font-size: 20px;
+}
