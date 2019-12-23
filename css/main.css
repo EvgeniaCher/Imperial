@@ -20,8 +20,8 @@ header {
 .title1 {
 	position: fixed;
 	background: #2A503F;
-	border-top: 3px solid #e1c269;
-	border-bottom: 3px solid #e1c269;
+	border-top: 4px solid #e1c269;
+	border-bottom: 1px solid #ffff99;
 	right: 0px;
 	left: 0px;
 	box-shadow: 0 0 15px #fff;
@@ -202,8 +202,9 @@ header {
 
 
 h3 {
-	font-size: 50px;
+	font-size: 55px;
 	color: #6BC9E3;
+	text-shadow: 70px -25px 3px #fff;
 }
 
 p {
@@ -237,6 +238,7 @@ h4 {
 .container2 p {
 	font-size: 15px;
 	color: #d8d8d8;
+	margin: 0;
 }
 
 /*Стили интерьера*/
@@ -250,15 +252,23 @@ h4 {
 .cards__front h3 {
 	font-size: 60px;
 	color: #ffff99;
+	text-shadow: none;
 	background: rgba(180, 180, 180, 0.6);
 }
 
 .color {
+	padding-top: 60px;
 	background-color: #FFF1E1;
 }
 
 .description {
 	padding: 30px;
+}
+
+.description h3 {
+	font-size: 65px;
+	color: #6BC9E3;
+	text-shadow: 80px -30px 3px #fff;
 }
 
 .rotation {
@@ -337,6 +347,13 @@ h4 {
 	box-shadow: 0 0 7px #ffff99;
 }
 
+.specialists h5 {
+	font-size: 55px;
+	color: #ffff99;
+	margin-top: 30px;
+	text-shadow: 70px -25px 3px #1A5439;
+}
+
 .specialists h4 {
 	color: #ffff99;
 	font-size: 20px;
@@ -351,6 +368,7 @@ h4 {
 	font-size: 65px;
 	margin-top: 100px;
 	padding: 30px;
+	text-shadow: 80px -30px 3px #efefef;
 }
 
 .gallery__image {
