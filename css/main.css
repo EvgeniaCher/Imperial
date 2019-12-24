@@ -326,6 +326,18 @@ h4 {
 	background: url(../img/photo29.jpg) no-repeat center;
 }
 
+span {
+	font-family: 'Cormorant SC', serif;
+	text-decoration: underline;
+	font-size: 17px;
+	color: #8C4646;
+	margin-left: 120px;
+}
+
+span:hover {
+	color: red;
+}
+
 .subtext {
 	background-color: #fff;
 	padding: 70px;
@@ -373,4 +385,17 @@ h4 {
 
 .gallery__image {
 	margin: 10px;
+}
+
+/*Подвал*/
+.container4 {
+	padding:30px;
+	padding-top: 50px;
+	background: #050606;
+	text-align: center;
+}
+
+.adress p {
+	color: #A2A2A2;
+	font-size: 12px;
 }
