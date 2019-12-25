@@ -14,7 +14,7 @@ ul, li {
 	margin: 0;
 }
 header {
-	background: no-repeat url(../img/background1.jpg) fixed center top / cover;
+	background: no-repeat url(../img/background2.jpg) fixed center top / cover;
 }
 
 .title1 {
@@ -60,7 +60,7 @@ header {
 .title2 {
 	text-align: center;
 	color: #fff;
-	margin-top: 200px;
+	margin-top: 110px;
 	display: block;
 	z-index: 2;
 }
@@ -75,8 +75,11 @@ header {
 .title2__text {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 40px;
+	padding-bottom: 3px;
+	margin-top: 225px;
 	margin-bottom: 100px;
-	color: #ffff99;
+	color: #fff;
+	background: rgba(110, 80, 0, 0.6);
 }
 
 /*Главная*/
@@ -202,9 +205,10 @@ header {
 
 
 h3 {
-	font-size: 55px;
+	font-size: 47px;
 	color: #6BC9E3;
-	text-shadow: 70px -25px 3px #fff;
+	text-shadow: 70px -20px 3px #fff;
+	text-transform: uppercase;
 }
 
 p {
@@ -250,7 +254,7 @@ h4 {
 }
 
 .cards__front h3 {
-	font-size: 60px;
+	font-size: 40px;
 	color: #ffff99;
 	text-shadow: none;
 	background: rgba(180, 180, 180, 0.6);
@@ -360,10 +364,11 @@ span:hover {
 }
 
 .specialists h5 {
-	font-size: 55px;
+	font-size: 45px;
 	color: #ffff99;
 	margin-top: 30px;
 	text-shadow: 70px -25px 3px #1A5439;
+	text-transform: uppercase;
 }
 
 .specialists h4 {
@@ -377,14 +382,20 @@ span:hover {
 }
 
 .portfolio h3 {
-	font-size: 65px;
+	font-size: 55px;
 	margin-top: 100px;
 	padding: 30px;
 	text-shadow: 80px -30px 3px #efefef;
+	text-transform: uppercase;
 }
 
 .gallery__image {
 	margin: 10px;
+}
+
+.gallery__image:hover {
+	filter: alpha (Opacity=75);
+	opacity: 0.75;
 }
 
 /*Подвал*/
