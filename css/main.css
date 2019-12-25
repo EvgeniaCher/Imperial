@@ -635,12 +635,12 @@ span:hover {
 	}
 	.gallerye {
 		width: 270px;
-		margin: auto;
-		padding: 0;
+		padding: 5px;
+		margin: 0;
 	}
 	.gallery__image {
 		width: 270px;
-		margin: auto;
-		padding: 0;
+		padding: 5px;
+		margin: 0;
 	}
 }
