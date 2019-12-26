@@ -634,7 +634,7 @@ span:hover {
 		margin: 20px 0 20px 0;
 	}
 	.gallerye {
-		width: 270px;
+		width: auto;
 		padding: 5px;
 		margin: 0;
 	}
